@@ -290,34 +290,79 @@ Controller → Service → Repository → PostgreSQL
 
 ## 💰 Subscription Model (SaaS Expansion)
 
-### 👤 Users
+                              ┌──────────────────────────────┐
+                              │        🌐 CLIENT LAYER       │
+                              │  React.js / Mobile App UI    │
+                              └──────────────┬───────────────┘
+                                             │
+                                             ▼
+                          ┌────────────────────────────────────┐
+                          │     ☁️ API GATEWAY (AWS ALB)      │
+                          │  Routing • Load Balancing • Auth  │
+                          └──────────────┬─────────────────────┘
+                                         │
+     ┌───────────────────────────────────┼───────────────────────────────────┐
+     ▼                                   ▼                                   ▼
 
-* Free tier → Basic shopping
-* Premium tier → Discounts + faster delivery
-* Loyalty system integration
+┌──────────────────────┐    ┌──────────────────────┐    ┌──────────────────────┐
+│ 👤 USER SERVICE      │    │ 🛒 PRODUCT SERVICE   │    │ 📦 ORDER SERVICE     │
+│ Spring Boot          │    │ Spring Boot          │    │ Spring Boot          │
+│ JWT Auth / RBAC      │    │ Catalog / CRUD       │    │ Cart / Orders        │
+└─────────┬────────────┘    └─────────┬────────────┘    └─────────┬────────────┘
+          │                           │                           │
+          ▼                           ▼                           ▼
 
-### 🛒 Sellers
+┌──────────────────────┐    ┌──────────────────────┐    ┌──────────────────────┐
+│ 💳 PAYMENT SERVICE   │    │ 🏪 SELLER SERVICE    │    │ 📊 ANALYTICS SERVICE │
+│ Stripe Integration   │    │ Inventory Control    │    │ Reports / Insights   │
+│ Transactions / Refund│    │ Listings / Pricing   │    │ AI Insights Ready    │
+└─────────┬────────────┘    └─────────┬────────────┘    └─────────┬────────────┘
+          │                           │                           │
+          └──────────────┬────────────┴───────────────┬──────────┘
+                         ▼                              ▼
 
-* Basic seller account
-* Premium seller dashboard
-* Analytics + boosted listings
-* Commission reduction plans
+        ┌──────────────────────────────┐   ┌──────────────────────────────┐
+        │ ⚡ EVENT BUS (Kafka)          │   │ 🔐 AUTH SERVICE              │
+        │ Real-time Event Streaming     │   │ JWT / OAuth2 Security       │
+        └──────────────┬───────────────┘   └──────────────┬───────────────┘
+                       ▼                                  ▼
 
-### 🧑‍💼 Admin (Enterprise)
+        ┌──────────────────────────────────────────────────────────────┐
+        │ 🗄️ DATA LAYER                                               │
+        │ PostgreSQL | MySQL | MongoDB | Redis (Cache Layer)          │
+        └──────────────────────────────┬──────────────────────────────┘
+                                       ▼
 
-* Advanced analytics
-* AI-based product insights
-* Fraud detection system
+        ┌──────────────────────────────────────────────────────────────┐
+        │ ☁️ AWS CLOUD INFRASTRUCTURE                                  │
+        │ EC2 → Compute Servers                                       │
+        │ S3 → Image & File Storage                                   │
+        │ RDS → Managed Database                                      │
+        │ Lambda → Event Processing                                   │
+        │ CloudWatch → Monitoring & Logs                              │
+        │ Kubernetes (EKS) → Container Orchestration                  │
+        └──────────────────────────────────────────────────────────────┘
 
 ---
 
 ## 📈 Scalability Enhancements
 
-* 🔄 Microservices expansion
-* ⚡ Kafka event-driven architecture
-* 🧠 AI product recommendation system
-* 📱 Mobile app (React Native)
-* ☁️ Kubernetes deployment
+* 🔄 **Microservices expansion** → Enables scalable system growth by splitting services into independent modules
+* ⚡ **Kafka event-driven architecture** → Supports real-time data flow and asynchronous communication between services
+* 🧠 **AI product recommendation system** → Provides personalized product suggestions based on user behavior
+* 📱 **Mobile app (React Native)** → Extends platform access to Android and iOS users via a unified mobile app
+* ☁️ **Kubernetes deployment** → Ensures container orchestration for scalable, reliable cloud deployment
+
+---
+
+## 💼 Subscription-Based Model
+
+* 💳 **Tiered subscription plans** → Offers Basic, Pro, and Enterprise plans for different user needs
+* 🏪 **Seller premium plans** → Provides advanced tools like analytics, promotion, and priority listing
+* 🚀 **Priority features access** → Unlocks exclusive features based on subscription level
+* 📊 **Revenue analytics dashboard** → Tracks subscription earnings and user engagement metrics
+* 🔐 **Role-based subscription control** → Restricts or enables features based on active plan level
+
 
 ---
 
