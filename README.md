@@ -342,4 +342,117 @@ For payment processing, the **Stripe API** is integrated as a dedicated service,
 
 ---
 
+Got it — you want **FAANG-style clean architecture + sequence diagrams in ASCII flow form**. Here are both:
+
+---
+
+# 🔐 1. JWT Authentication Flow Diagram
+
+```
+            ┌────────────────────────────┐
+            │        Frontend App        │
+            │   (React / Mobile UI)      │
+            └────────────┬───────────────┘
+                         │ Login (email/password)
+                         ▼
+            ┌────────────────────────────┐
+            │     Auth Controller        │
+            │   Spring Boot API Layer    │
+            └────────────┬───────────────┘
+                         │ Validate Credentials
+                         ▼
+            ┌────────────────────────────┐
+            │        User Service        │
+            │   DB Check (users table)   │
+            └────────────┬───────────────┘
+                         │ valid user
+                         ▼
+            ┌────────────────────────────┐
+            │     JWT Token Generator    │
+            │   (Secret Key Signing)     │
+            └────────────┬───────────────┘
+                         │ JWT Token
+                         ▼
+            ┌────────────────────────────┐
+            │        Frontend App        │
+            │ Store Token (LocalStorage) │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+        ┌────────────────────────────────────┐
+        │  Future Requests (Authenticated)   │
+        │  Authorization: Bearer JWT Token  │
+        └────────────────────────────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │  JWT Filter / Middleware    │
+            │  (Token Validation Layer)   │
+            └────────────────────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │   Secure API Access Granted │
+            └────────────────────────────┘
+```
+
+---
+
+# 💳 2. Stripe Payment Sequence Diagram
+
+```
+            ┌────────────────────────────┐
+            │        Frontend App        │
+            │  Checkout Button Click     │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │     Order Service API      │
+            │  /create-payment-intent    │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │      Stripe Service        │
+            │  Create Payment Intent     │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │        Stripe API          │
+            │   (Card Validation etc.)   │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │  Payment Intent Response   │
+            │   client_secret returned   │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │        Frontend App        │
+            │ Stripe.js confirms payment │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │     Stripe Webhook         │
+            │  payment_success / fail    │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │     Order Service DB       │
+            │  Update Order Status       │
+            └────────────┬───────────────┘
+                         │
+                         ▼
+            ┌────────────────────────────┐
+            │   Email / Notification     │
+            │  Order Confirmation Sent   │
+            └────────────────────────────┘
+```
+
 
