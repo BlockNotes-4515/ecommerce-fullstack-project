@@ -230,9 +230,9 @@ Here are **short one-line role descriptions for each point**:
 
 <div align="center">
   <img src="DOCS LISCENCED/SUB DIRECTORY/Seller1.png" width="400" style="margin: 10px;">
-  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller2.png" width="400" style="margin: 10px;">
 
-  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller3.png" width="400" style="margin: 10px;">
   <img src="DOCS LISCENCED/SUB DIRECTORY/Seller4.png" width="400" style="margin: 10px;">
 </div>
 ---
