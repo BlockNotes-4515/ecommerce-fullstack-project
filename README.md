@@ -197,16 +197,61 @@ Here are **crisp one-line role descriptions for each module and feature**:
 
 ---
 
-## 👤 Customer
+## 👤 Customer User 
 
 * Browse products → Allows users to explore available products
 * Add to cart → Enables adding items to shopping cart for purchase
 * Place orders → Confirms purchase and creates an order
 * View profile → Displays personal account details and activity
+  
+<div align="center">
+  <table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_1" width="95%" />
+      <br/><br/>
+      <b>🚀 Image Title 1</b>
+    </td>
+
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_2" width="95%" />
+      <br/><br/>
+      <b>🎯 Image Title 2</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_3" width="95%" />
+      <br/><br/>
+      <b>⚙️ Image Title 3</b>
+    </td>
+
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_4" width="95%" />
+      <br/><br/>
+      <b>🛒 Image Title 4</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_5" width="95%" />
+      <br/><br/>
+      <b>📦 Image Title 5</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_6" width="95%" />
+      <br/><br/>
+      <b>🔐 Image Title 6</b>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
-## 🛒 Seller
+## 🛒 Seller Panel
 
 * Manage products → Handles creation, update, and removal of products
 * Track sales → Monitors total sales and performance metrics
@@ -214,7 +259,7 @@ Here are **crisp one-line role descriptions for each module and feature**:
 
 ---
 
-## 🧑‍💼 Admin
+## 🧑‍💼 Admin Panel
 
 * User management → Controls user accounts and access permissions
 * Product moderation → Reviews and approves product listings
