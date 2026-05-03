@@ -423,9 +423,6 @@ Shopora Nexus is a **production-grade enterprise e-commerce platform** built wit
         │ RDS (Database Hosting)                │
         └────────────────────────────────────────┘
 ```
-
-<img src="DOCS LISCENCED/JWT WORKING.png" align="center">
-
 ---
 
 # ⚙️ Architecture Explanation (README Section)
@@ -495,6 +492,8 @@ Got it — you want **FAANG-style clean architecture + sequence diagrams in ASCI
 ```
 <p align="left">
   In this project, authentication is handled using JWT (JSON Web Token) to ensure secure and stateless user sessions. When a user logs in through the frontend application (built using React or mobile UI), their credentials are sent to the backend Auth Controller developed in Spring Boot. The controller forwards the request to the User Service, where the system validates the credentials against the database.
+
+<img src="DOCS LISCENCED/JWT WORKING.png" align="center">
 
 If the user details are correct, a JWT token is generated using a secure secret key. This token contains important user information such as user ID, role (USER / ADMIN / SELLER), and expiration time. The generated token is returned to the frontend and stored securely in local storage or session storage.
 
