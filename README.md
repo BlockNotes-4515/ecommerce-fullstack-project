@@ -278,12 +278,9 @@ Controller → Service → Repository → PostgreSQL
 
 # ☁️ 8. Cloud Architecture
 
-* 🌐 Frontend → React deployed on CDN
-* 🚪 API Gateway → Request routing + JWT validation
-* ⚙️ Backend → Spring Boot services on AWS EC2
-* 🗄️ Database → PostgreSQL (AWS RDS)
-* 📦 Storage → AWS S3 (images/files)
-
+```text
+🌐 Frontend (React on CDN) → 🚪 API Gateway (Routing + JWT Validation) → ⚙️ Backend (Spring Boot on AWS EC2) → 🗄️ PostgreSQL (AWS RDS) → 📦 AWS S3 (Images / Files)
+```
 ---
 
 # 🚀 9. Future Scalability
@@ -426,6 +423,8 @@ Shopora Nexus is a **production-grade enterprise e-commerce platform** built wit
         │ RDS (Database Hosting)                │
         └────────────────────────────────────────┘
 ```
+
+<img src="DOCS LISCENCED/JWT WORKING.png" align="center">
 
 ---
 
