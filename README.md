@@ -228,6 +228,13 @@ Here are **short one-line role descriptions for each point**:
 * Track sales → Monitors total sales and performance metrics
 * Inventory control → Maintains stock levels and availability
 
+<div align="center">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller1.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Seller4.png" width="400" style="margin: 10px;">
+</div>
 ---
 
 ## 🧑‍💼 Admin Panel
@@ -236,6 +243,29 @@ Here are **short one-line role descriptions for each point**:
 * Product moderation → Reviews and approves product listings
 * System analytics → Analyzes platform performance and usage data
 * Platform control → Oversees overall system operations and governance
+
+<div align="center">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin2.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin3.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin4.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin5.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin6.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin7.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin8.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin9.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin10.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin11.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin12.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin13.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Admin14.png" width="400" style="margin: 10px;">
+</div>
 
 ---
 
@@ -246,8 +276,24 @@ Here are **short one-line role descriptions for each point**:
 * Payment method selection → Choose secure payment options like Stripe or PayPal
 * Final payment → Complete transaction on Stripe/PayPal and receive order/payment confirmation
 
----
+<div align="center">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart2.png" width="400" style="margin: 10px;">
 
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart3.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart4.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart5.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart6.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart7.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart8.png" width="400" style="margin: 10px;">
+
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart9.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/Cart10.png" width="400" style="margin: 10px;">
+</div>
+
+---
 
 ## 👤 Profile System
 
