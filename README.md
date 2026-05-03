@@ -567,7 +567,9 @@ Once the payment intent is created successfully, Stripe returns a client_secret,
 After payment processing, Stripe sends a webhook event to the backend indicating success or failure of the transaction. Based on this event, the Order Service updates the order status in the database (PENDING → PAID → FAILED). Finally, the system triggers an email/notification service to send order confirmation to the user, completing the full payment lifecycle securely and efficiently.
 </p>
 
-## 🏗️ System Workflow & ER Diagram
+<div align="center">
+🏗️ System Workflow & ER Diagram
+</div>
 
 <p align="center">
   A complete overview of the platform architecture, request lifecycle, database relationships, 
@@ -600,3 +602,12 @@ After payment processing, Stripe sends a webhook event to the backend indicating
     </td>
   </tr>
 </table>
+
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=footer&text=Thanks%20for%20Visiting%20🚀&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=70" width="100%"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Built+with+Passion+%F0%9F%92%8E;Code+%7C+Innovation+%7C+Growth;See+You+Again+🚀" />
+
+</div>
