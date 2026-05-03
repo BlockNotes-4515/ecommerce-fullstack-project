@@ -434,10 +434,10 @@ All services are secured using **JWT-based authentication with Spring Security**
 The system uses **PostgreSQL as the primary database**, managed via **JPA/Hibernate ORM**, ensuring strong relational data consistency and optimized query performance.
 
 For payment processing, the **Stripe API** is integrated as a dedicated service, while notifications are handled via an email service layer. The entire backend is deployed on **AWS Cloud (EC2, S3, RDS)**, making the system production-ready and scalable.
+<br>
+<img src="DOCS LISCENCED/ARCHITECTURE.png" align="center">
 
 ---
-
-Got it — you want **FAANG-style clean architecture + sequence diagrams in ASCII flow form**. Here are both:
 
 ---
 
@@ -492,6 +492,7 @@ Got it — you want **FAANG-style clean architecture + sequence diagrams in ASCI
 ```
 <p align="left">
   In this project, authentication is handled using JWT (JSON Web Token) to ensure secure and stateless user sessions. When a user logs in through the frontend application (built using React or mobile UI), their credentials are sent to the backend Auth Controller developed in Spring Boot. The controller forwards the request to the User Service, where the system validates the credentials against the database.
+  <br>
 
 <img src="DOCS LISCENCED/JWT WORKING.png" align="center">
 
