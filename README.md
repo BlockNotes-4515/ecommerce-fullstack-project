@@ -402,7 +402,6 @@ If the user details are correct, a JWT token is generated using a secure secret 
 
 For every subsequent API request, the frontend includes this token in the request header as a Bearer Token. On the backend, a JWT filter (middleware) intercepts incoming requests and validates the token’s signature and expiry. If the token is valid, the request is allowed to access protected resources; otherwise, access is denied. This ensures secure, scalable, and stateless authentication across the system.
 </p>
----
 
 # 💳 2. Stripe Payment Sequence Diagram
 
