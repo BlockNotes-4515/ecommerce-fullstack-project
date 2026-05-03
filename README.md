@@ -513,6 +513,3 @@ Once the payment intent is created successfully, Stripe returns a client_secret,
 After payment processing, Stripe sends a webhook event to the backend indicating success or failure of the transaction. Based on this event, the Order Service updates the order status in the database (PENDING → PAID → FAILED). Finally, the system triggers an email/notification service to send order confirmation to the user, completing the full payment lifecycle securely and efficiently.
 </p>
 
-<!-- Glow Footer Line -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,100:0057ff&height=100&section=footer"/>
-</div>
