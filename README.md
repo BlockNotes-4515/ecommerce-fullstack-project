@@ -63,85 +63,104 @@ The system is built using **modern software engineering principles** including:
 
 <div align="center">
 
-<!-- Header Glow Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=800&lines=⚡+EcommerceHub+Tech+Stack;🚀+Enterprise+Full+Stack+Architecture;🔥+Spring+Boot+%2B+React+%2B+AWS+Powered+System" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=2500&pause=700&color=00F5FF&center=true&vCenter=true&width=900&lines=⚡+EcommerceHub+Full+Stack+Tech+Stack;🚀+Enterprise+Grade+System+Design;🔥+Spring+Boot+%7C+React+%7C+AWS+%7C+Docker" />
 
 <br><br>
 
-<!-- ================= FRONTEND ================= -->
+<!-- FRONTEND -->
 <h2>🖥️ Frontend</h2>
 
-<img src="https://skillicons.dev/icons?i=react,redux,tailwind" 
+<img src="https://skillicons.dev/icons?i=react,redux,tailwind,html,css,js,ts,nextjs,vite,figma,webpack,babel" 
 style="filter: drop-shadow(0px 0px 10px #00f5ff);" />
 
 <br>
-⚛️ React.js → UI Development  
-🔄 Redux Toolkit → State Management  
-🎨 Tailwind CSS → Styling  
+
+⚛️ React.js → UI | 🔄 Redux → State | 🎨 Tailwind → Styling | 🌐 HTML/CSS → Structure | 📜 JS/TS → Logic | ⚡ Next.js → SSR | ⚡ Vite → Build | 📦 Webpack → Bundling | 🔧 Babel → Transpiling | 🎨 Figma → UI Design  
 
 <br><br>
 
-<!-- ================= BACKEND ================= -->
+<!-- BACKEND -->
 <h2>🔧 Backend</h2>
 
-<img src="https://skillicons.dev/icons?i=java,spring" 
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,hibernate,graphql,python,flask" 
 style="filter: drop-shadow(0px 0px 10px #00ff99);" />
 
 <br>
-☕ Java → Core Language  
-🌱 Spring Boot → Backend Framework  
-🔐 Spring Security → Authentication  
-🧩 JPA / Hibernate → ORM Layer  
+
+☕ Java → Core | 🌱 Spring Boot → Framework | 🔐 Spring Security → Auth | 🧩 Hibernate/JPA → ORM | 🟢 Node.js → Runtime | ⚙️ Express → APIs | 🔗 GraphQL → Queries | 🐍 Python → Services | 🌶️ Flask → Microservices  
 
 <br><br>
 
-<!-- ================= DATABASE ================= -->
+<!-- DATABASE -->
 <h2>🗄️ Database</h2>
 
-<img src="https://skillicons.dev/icons?i=postgresql" 
+<img src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,redis,firebase,sqlite" 
 style="filter: drop-shadow(0px 0px 10px #4db8ff);" />
 
 <br>
-🐘 PostgreSQL → Relational Database  
+
+🐘 PostgreSQL → SQL DB | 🐬 MySQL → Relational | 🍃 MongoDB → NoSQL | ⚡ Redis → Cache | 🔥 Firebase → Realtime | 🪶 SQLite → Local DB  
 
 <br><br>
 
-<!-- ================= CLOUD ================= -->
+<!-- CLOUD & DEVOPS -->
 <h2>☁️ Cloud & DevOps</h2>
 
-<img src="https://skillicons.dev/icons?i=aws,docker" 
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,jenkins,linux,nginx,terraform,gcp" 
 style="filter: drop-shadow(0px 0px 10px #ffcc00);" />
 
 <br>
-☁️ AWS EC2 → Backend Deployment  
-📦 AWS S3 → File Storage  
-🗄️ AWS RDS → Database Hosting  
-🐳 Docker → Containerization  
+
+☁️ AWS EC2 → Deploy | 📦 S3 → Storage | 🗄️ RDS → DB Hosting | 🐳 Docker → Containers | ☸️ Kubernetes → Orchestration | ⚙️ Jenkins → CI/CD | 🐧 Linux → Server | 🌐 Nginx → Proxy | 🏗️ Terraform → Infra as Code | 🌍 GCP → Cloud  
 
 <br><br>
 
-<!-- ================= TOOLS ================= -->
-<h2>🧪 Testing & Tools</h2>
+<!-- TESTING -->
+<h2>🧪 Testing & API Tools</h2>
 
-<img src="https://skillicons.dev/icons?i=postman,git,github,maven" 
+<img src="https://skillicons.dev/icons?i=postman,jest,cypress,selenium" 
 style="filter: drop-shadow(0px 0px 10px #ff4dff);" />
 
 <br>
-📮 Postman → API Testing  
-🧑‍💻 Git & GitHub → Version Control  
-📦 Maven → Build Tool  
+
+📮 Postman → API Testing | 🧪 Jest → Unit Testing | 🤖 Cypress → E2E | 🧭 Selenium → Automation  
 
 <br><br>
 
-<!-- ================= INTEGRATIONS ================= -->
+<!-- TOOLS -->
+<h2>🧑‍💻 Tools</h2>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,maven,gradle,npm,yarn,linux" 
+style="filter: drop-shadow(0px 0px 10px #ffffff);" />
+
+<br>
+
+🧑‍💻 Git/GitHub → VCS | 💻 VS Code/IntelliJ → IDE | 📦 Maven/Gradle → Build | 📦 npm/yarn → Packages | 🐧 Linux → CLI  
+
+<br><br>
+
+<!-- SECURITY -->
+<h2>🔐 Security</h2>
+
+<img src="https://skillicons.dev/icons?i=jwt,oauth" 
+style="filter: drop-shadow(0px 0px 10px #ff0000);" />
+
+<br>
+
+🔐 JWT → Tokens | 🔑 OAuth2 → Auth Flow | 🛡️ Spring Security → Protection  
+
+<br><br>
+
+<!-- INTEGRATIONS -->
 <h2>💳 Integrations</h2>
 
-💳 Stripe API → Payment Gateway  
-📧 Email Service → Notifications  
+<img src="https://skillicons.dev/icons?i=stripe,mailchimp,twilio" 
+style="filter: drop-shadow(0px 0px 10px #00ffcc);" />
 
-<br><br>
-<!-- Glow Footer Line -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,100:0057ff&height=100&section=footer"/>
+<br>
+
+💳 Stripe → Payments | 📧 Mailchimp → Emails | 📲 Twilio → SMS/OTP Services  
+
 </div>
 
 ---
