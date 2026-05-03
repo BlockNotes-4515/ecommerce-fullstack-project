@@ -567,3 +567,36 @@ Once the payment intent is created successfully, Stripe returns a client_secret,
 After payment processing, Stripe sends a webhook event to the backend indicating success or failure of the transaction. Based on this event, the Order Service updates the order status in the database (PENDING → PAID → FAILED). Finally, the system triggers an email/notification service to send order confirmation to the user, completing the full payment lifecycle securely and efficiently.
 </p>
 
+## 🏗️ System Workflow & ER Diagram
+
+<p align="center">
+  A complete overview of the platform architecture, request lifecycle, database relationships, 
+  and how each component interacts across frontend, backend, storage, and security layers.
+</p>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="DOCS LISCENCED/ER DIAGRAM.png" width="100%" />
+      <br/><br/>
+      <b>⚙️ Complete System Workflow</b>
+      <br/>
+      <sub>
+        Frontend requests flow through API Gateway, authenticated via JWT, 
+        processed by Spring Boot microservices, connected to database and storage.
+      </sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="DOCS LISCENCED/COMPLETE WORKFLOW.png" width="100%" />
+      <br/><br/>
+      <b>⚙️ Complete System Workflow</b>
+      <br/>
+      <sub>
+        Frontend requests flow through API Gateway, authenticated via JWT, 
+        processed by Spring Boot microservices, connected to database and storage.
+      </sub>
+    </td>
+  </tr>
+</table>
