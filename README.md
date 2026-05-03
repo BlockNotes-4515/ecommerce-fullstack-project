@@ -205,7 +205,7 @@ Here are **crisp one-line role descriptions for each module and feature**:
 * View profile → Displays personal account details and activity
   
 <div align="center">
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="50%">
       <img src="IMAGE_URL_1" width="100%" />
@@ -237,6 +237,23 @@ Here are **crisp one-line role descriptions for each module and feature**:
       <b>📦 Order Management</b>
       <br/>
       <sub>Cart, checkout & order tracking</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_5" width="100%" />
+      <br/><br/>
+      <b>⚙️ Admin Panel</b>
+      <br/>
+      <sub>Manage users, products & analytics</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="IMAGE_URL_6" width="100%" />
+      <br/><br/>
+      <b>🏪 Seller Panel</b>
+      <br/>
+      <sub>Inventory, orders & seller dashboard</sub>
     </td>
   </tr>
 </table>
