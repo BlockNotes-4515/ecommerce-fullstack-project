@@ -61,40 +61,89 @@ The system is built using **modern software engineering principles** including:
 
 # ⚙️ 4. Tech Stack (With Icons)
 
-## 🖥️ Frontend
+<div align="center">
 
-* ⚛️ React.js → UI Development
-* 🔄 Redux Toolkit → State Management
-* 🎨 Tailwind CSS → Styling
+<!-- Header Glow Animation -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=800&lines=⚡+EcommerceHub+Tech+Stack;🚀+Enterprise+Full+Stack+Architecture;🔥+Spring+Boot+%2B+React+%2B+AWS+Powered+System" />
 
-## 🔧 Backend
+<br><br>
 
-* ☕ Java → Core Language
-* 🌱 Spring Boot → Backend Framework
-* 🔐 Spring Security → Authentication
-* 🧩 JPA / Hibernate → ORM Layer
+<!-- ================= FRONTEND ================= -->
+<h2>🖥️ Frontend</h2>
 
-## 🗄️ Database
+<img src="https://skillicons.dev/icons?i=react,redux,tailwind" 
+style="filter: drop-shadow(0px 0px 10px #00f5ff);" />
 
-* 🐘 PostgreSQL → Relational Database
+<br>
+⚛️ React.js → UI Development  
+🔄 Redux Toolkit → State Management  
+🎨 Tailwind CSS → Styling  
 
-## ☁️ Cloud & DevOps
+<br><br>
 
-* ☁️ AWS EC2 → Backend Deployment
-* 📦 AWS S3 → File Storage
-* 🗄️ AWS RDS → Database Hosting
-* 🐳 Docker → Containerization
+<!-- ================= BACKEND ================= -->
+<h2>🔧 Backend</h2>
 
-## 🧪 Testing & Tools
+<img src="https://skillicons.dev/icons?i=java,spring" 
+style="filter: drop-shadow(0px 0px 10px #00ff99);" />
 
-* 📮 Postman → API Testing
-* 🧑‍💻 Git & GitHub → Version Control
-* 📦 Maven → Build Tool
+<br>
+☕ Java → Core Language  
+🌱 Spring Boot → Backend Framework  
+🔐 Spring Security → Authentication  
+🧩 JPA / Hibernate → ORM Layer  
 
-## 💳 Integrations
+<br><br>
 
-* 💳 Stripe API → Payment Gateway
-* 📧 Email Service → Notifications
+<!-- ================= DATABASE ================= -->
+<h2>🗄️ Database</h2>
+
+<img src="https://skillicons.dev/icons?i=postgresql" 
+style="filter: drop-shadow(0px 0px 10px #4db8ff);" />
+
+<br>
+🐘 PostgreSQL → Relational Database  
+
+<br><br>
+
+<!-- ================= CLOUD ================= -->
+<h2>☁️ Cloud & DevOps</h2>
+
+<img src="https://skillicons.dev/icons?i=aws,docker" 
+style="filter: drop-shadow(0px 0px 10px #ffcc00);" />
+
+<br>
+☁️ AWS EC2 → Backend Deployment  
+📦 AWS S3 → File Storage  
+🗄️ AWS RDS → Database Hosting  
+🐳 Docker → Containerization  
+
+<br><br>
+
+<!-- ================= TOOLS ================= -->
+<h2>🧪 Testing & Tools</h2>
+
+<img src="https://skillicons.dev/icons?i=postman,git,github,maven" 
+style="filter: drop-shadow(0px 0px 10px #ff4dff);" />
+
+<br>
+📮 Postman → API Testing  
+🧑‍💻 Git & GitHub → Version Control  
+📦 Maven → Build Tool  
+
+<br><br>
+
+<!-- ================= INTEGRATIONS ================= -->
+<h2>💳 Integrations</h2>
+
+💳 Stripe API → Payment Gateway  
+📧 Email Service → Notifications  
+
+<br><br>
+
+<!-- Glow Footer Line -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,100:0057ff&height=100&section=footer"/>
+</div>
 
 ---
 
