@@ -607,11 +607,11 @@ After payment processing, Stripe sends a webhook event to the backend indicating
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=footer&text=Thanks%20for%20Visiting%20&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=70" width="100%"/>💖
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Built+with+Passion+%F0%9F%92%8E;Code+%7C+Innovation+%7C+Growth;See+You+Again+" />💖
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Built+with+Passion+%F0%9F%92%8E;Code+%7C+Innovation+%7C+Growth;See+You+Again+" />
 </div>
 <div align="center">
 
-<a href="https://github.com/YOUR_USERNAME/YOUR_REPO/stargazers">
+<a href="https://github.com/BlockNotes-4515/YOUR_REPO/stargazers">
   <img src="https://img.shields.io/badge/⭐%20Star%20This%20Repo-111111?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
@@ -619,8 +619,16 @@ After payment processing, Stripe sends a webhook event to the backend indicating
   <img src="https://img.shields.io/badge/💖%20Sponsor%20Me-e91e63?style=for-the-badge&logo=githubsponsors&logoColor=white" />
 </a>
 
-<a href="https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new">
+<a href="https://github.com/BlockNotes-4515/YOUR_REPO/issues/new">
   <img src="https://img.shields.io/badge/💡%20Give%20Suggestion-0A66C2?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://github.com/BlockNotes-4515/YOUR_REPO/fork">
+  <img src="https://img.shields.io/badge/🍴%20Fork%20Repo-6f42c1?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://github.com/BlockNotes-4515?tab=followers">
+  <img src="https://img.shields.io/badge/👀%20Follow%20Me-16a34a?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
