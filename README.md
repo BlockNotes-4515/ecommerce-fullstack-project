@@ -226,7 +226,6 @@ Here are **crisp one-line role descriptions for each module and feature**:
       <br/><br/>
       <b>⚙️ Image Title 3</b>
     </td>
-
     <td align="center" width="50%">
       <img src="IMAGE_URL_4" width="95%" />
       <br/><br/>
