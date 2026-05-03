@@ -1,4 +1,5 @@
-# Shopora Nexus (शॉपोरा नेक्सस)
+<h1 align="center">Shopora Nexus (शॉपोरा नेक्सस)</h1>
+<h3 align="center"> “Everything You Need. All in One Place.” </h3>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=Shopora%20Nexus&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Enterprise%20Multi-Vendor%20E-Commerce%20Platform&descAlignY=55&descAlign=50" />
 </p>
@@ -142,20 +143,12 @@ style="filter: drop-shadow(0px 0px 10px #ffffff);" />
 <!-- SECURITY -->
 <h2>🔐 Security</h2>
 
-<img src="https://skillicons.dev/icons?i=jwt,oauth" 
-style="filter: drop-shadow(0px 0px 10px #ff0000);" />
-
-
 🔐 JWT → Tokens | 🔑 OAuth2 → Auth Flow | 🛡️ Spring Security → Protection  
 
 <!-- INTEGRATIONS -->
 <h2>💳 Integrations</h2>
 
-<img src="https://skillicons.dev/icons?i=stripe,mailchimp,twilio" 
-style="filter: drop-shadow(0px 0px 10px #00ffcc);" />
-
 💳 Stripe → Payments | 📧 Mailchimp → Emails | 📲 Twilio → SMS/OTP Services  
-
 </div>
 
 ---
