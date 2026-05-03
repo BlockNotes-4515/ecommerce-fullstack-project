@@ -140,6 +140,10 @@ style="filter: drop-shadow(0px 0px 10px #ff4dff);" />
 📧 Email Service → Notifications  
 
 <br><br>
+<!-- Glow Footer Line -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,100:0057ff&height=100&section=footer"/>
+</div>
+
 ---
 
 # 🧭 5. Core Modules & Features
