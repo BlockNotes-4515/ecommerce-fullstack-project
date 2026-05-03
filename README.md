@@ -205,58 +205,11 @@ Here are **crisp one-line role descriptions for each module and feature**:
 * View profile → Displays personal account details and activity
   
 <div align="center">
-<table width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_1" width="100%" />
-      <br/><br/>
-      <b>🚀 Dashboard UI</b>
-      <br/>
-      <sub>Main landing page / homepage design</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_2" width="100%" />
-      <br/><br/>
-      <b>🛒 Product Section</b>
-      <br/>
-      <sub>Products listing with filters & cards</sub>
-    </td>
-  </tr>
+  <img src="https://drive.google.com/uc?export=view&id=1j1iDx6Ct__BQF74X-5yF_2OBmmXipY_S" width="400" style="margin: 10px;">
+  <img src="https://drive.google.com/uc?export=view&id=1vcF54q-XAeGAtlEnfcTmy5uqP_xjG0lq" width="400" style="margin: 10px;">
 
-  <tr>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_3" width="100%" />
-      <br/><br/>
-      <b>🔐 Authentication</b>
-      <br/>
-      <sub>Login / Register / JWT security flow</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_4" width="100%" />
-      <br/><br/>
-      <b>📦 Order Management</b>
-      <br/>
-      <sub>Cart, checkout & order tracking</sub>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_5" width="100%" />
-      <br/><br/>
-      <b>⚙️ Admin Panel</b>
-      <br/>
-      <sub>Manage users, products & analytics</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_6" width="100%" />
-      <br/><br/>
-      <b>🏪 Seller Panel</b>
-      <br/>
-      <sub>Inventory, orders & seller dashboard</sub>
-    </td>
-  </tr>
-</table>
+  <img src="https://drive.google.com/uc?export=view&id=1AcL3aCu6OwGBHrBkQWuD44HlQvs2ALhP" width="400" style="margin: 10px;">
+  <img src="https://drive.google.com/uc?export=view&id=1ajR_8iOWnuxplOFnpzYv4KxzFagLrdUm" width="400" style="margin: 10px;">
 </div>
 
 ---
