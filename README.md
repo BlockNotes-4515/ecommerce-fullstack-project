@@ -205,44 +205,38 @@ Here are **crisp one-line role descriptions for each module and feature**:
 * View profile → Displays personal account details and activity
   
 <div align="center">
-  <table width="100%">
+<table>
   <tr>
     <td align="center" width="50%">
-      <img src="IMAGE_URL_1" width="95%" />
+      <img src="IMAGE_URL_1" width="100%" />
       <br/><br/>
-      <b>🚀 Image Title 1</b>
+      <b>🚀 Dashboard UI</b>
+      <br/>
+      <sub>Main landing page / homepage design</sub>
     </td>
-
     <td align="center" width="50%">
-      <img src="IMAGE_URL_2" width="95%" />
+      <img src="IMAGE_URL_2" width="100%" />
       <br/><br/>
-      <b>🎯 Image Title 2</b>
+      <b>🛒 Product Section</b>
+      <br/>
+      <sub>Products listing with filters & cards</sub>
     </td>
   </tr>
 
   <tr>
     <td align="center" width="50%">
-      <img src="IMAGE_URL_3" width="95%" />
+      <img src="IMAGE_URL_3" width="100%" />
       <br/><br/>
-      <b>⚙️ Image Title 3</b>
+      <b>🔐 Authentication</b>
+      <br/>
+      <sub>Login / Register / JWT security flow</sub>
     </td>
     <td align="center" width="50%">
-      <img src="IMAGE_URL_4" width="95%" />
+      <img src="IMAGE_URL_4" width="100%" />
       <br/><br/>
-      <b>🛒 Image Title 4</b>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_5" width="95%" />
-      <br/><br/>
-      <b>📦 Image Title 5</b>
-    </td>
-    <td align="center" width="50%">
-      <img src="IMAGE_URL_6" width="95%" />
-      <br/><br/>
-      <b>🔐 Image Title 6</b>
+      <b>📦 Order Management</b>
+      <br/>
+      <sub>Cart, checkout & order tracking</sub>
     </td>
   </tr>
 </table>
