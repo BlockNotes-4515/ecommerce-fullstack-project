@@ -192,9 +192,14 @@ style="filter: drop-shadow(0px 0px 10px #ffffff);" />
 ---
 
 ## 👨‍💼 User Roles
+Here are **short one-line role descriptions for each point**:
 
-Here are **crisp one-line role descriptions for each module and feature**:
-
+* 🔑 **Register new user** → Creates a new user account in the system
+* 🔐 **Login / Logout** → Authenticates user and manages active session
+* 🚪 **Sign-in / Sign-out** → Controls secure entry and exit from the platform
+* 🛡️ **JWT-based secure authentication** → Issues and validates secure token-based access
+* 👮 **Role-based access (User / Seller / Admin)** → Restricts features based on assigned user roles
+* 
 ---
 
 ## 👤 Customer User 
@@ -205,14 +210,14 @@ Here are **crisp one-line role descriptions for each module and feature**:
 * View profile → Displays personal account details and activity
   
 <div align="center">
-  <img src="DOCS LISCENCED/User1.png" width="400" style="margin: 10px;">
-  <img src="DOCS LISCENCED/User2.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/User1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/User2.png" width="400" style="margin: 10px;">
 
-  <img src="DOCS LISCENCED/User3.png" width="400" style="margin: 10px;">
-  <img src="DOCS LISCENCED/User4.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/User3.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/User4.png" width="400" style="margin: 10px;">
 
-   <img src="DOCS LISCENCED/User5.png" width="400" style="margin: 10px;">
-  <img src="DOCS LISCENCED/User6.png" width="400" style="margin: 10px;">
+   <img src="DOCS LISCENCED/SUB DIRECTORY/User5.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/SUB DIRECTORY/User6.png" width="400" style="margin: 10px;">
 </div>
 
 ---
