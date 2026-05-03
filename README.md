@@ -290,57 +290,58 @@ Controller → Service → Repository → PostgreSQL
 
 ## 💰 Subscription Model (SaaS Expansion)
 
-                              ┌──────────────────────────────┐
-                              │        🌐 CLIENT LAYER       │
-                              │  React.js / Mobile App UI    │
-                              └──────────────┬───────────────┘
-                                             │
-                                             ▼
-                          ┌────────────────────────────────────┐
-                          │     ☁️ API GATEWAY (AWS ALB)      │
-                          │  Routing • Load Balancing • Auth  │
-                          └──────────────┬─────────────────────┘
-                                         │
-     ┌───────────────────────────────────┼───────────────────────────────────┐
-     ▼                                   ▼                                   ▼
+                              ┌────────────────────────────────┐
+                              │        🌐 CLIENT LAYER         │
+                              │   React.js / Mobile App UI     │
+                              └───────────────┬────────────────┘
+                                              │
+                                              ▼
 
-┌──────────────────────┐    ┌──────────────────────┐    ┌──────────────────────┐
-│ 👤 USER SERVICE      │    │ 🛒 PRODUCT SERVICE   │    │ 📦 ORDER SERVICE     │
-│ Spring Boot          │    │ Spring Boot          │    │ Spring Boot          │
-│ JWT Auth / RBAC      │    │ Catalog / CRUD       │    │ Cart / Orders        │
-└─────────┬────────────┘    └─────────┬────────────┘    └─────────┬────────────┘
-          │                           │                           │
-          ▼                           ▼                           ▼
+                          ┌──────────────────────────────────────┐
+                          │     ☁️ API GATEWAY (AWS ALB)         │
+                          │  Routing • Load Balancing • Auth     │
+                          └───────────────┬──────────────────────┘
+                                          │
+        ┌─────────────────────────────────┼─────────────────────────────────┐
+        ▼                                 ▼                                 ▼
 
-┌──────────────────────┐    ┌──────────────────────┐    ┌──────────────────────┐
-│ 💳 PAYMENT SERVICE   │    │ 🏪 SELLER SERVICE    │    │ 📊 ANALYTICS SERVICE │
-│ Stripe Integration   │    │ Inventory Control    │    │ Reports / Insights   │
-│ Transactions / Refund│    │ Listings / Pricing   │    │ AI Insights Ready    │
-└─────────┬────────────┘    └─────────┬────────────┘    └─────────┬────────────┘
-          │                           │                           │
-          └──────────────┬────────────┴───────────────┬──────────┘
-                         ▼                              ▼
+┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
+│ 👤 USER SERVICE      │     │ 🛒 PRODUCT SERVICE   │     │ 📦 ORDER SERVICE    │
+│ Spring Boot          │     │ Spring Boot          │     │ Spring Boot          │
+│ JWT Auth / RBAC      │     │ Catalog / CRUD       │     │ Cart / Orders        │
+└─────────┬────────────┘     └─────────┬────────────┘     └─────────┬────────────┘
+          │                            │                            │
+          ▼                            ▼                            ▼
+
+┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
+│ 💳 PAYMENT SERVICE   │     │ 🏪 SELLER SERVICE   │     │ 📊 ANALYTICS SERVICE │
+│ Stripe Integration   │     │ Inventory Control    │     │ Reports / Insights   │
+│ Transactions/Refunds │     │ Listings / Pricing   │     │ AI Insights Ready    │
+└─────────┬────────────┘     └─────────┬────────────┘     └─────────┬────────────┘
+          │                            │                            │
+          └──────────────┬─────────────┴──────────────┬────────────┘
+                         ▼                             ▼
 
         ┌──────────────────────────────┐   ┌──────────────────────────────┐
-        │ ⚡ EVENT BUS (Kafka)          │   │ 🔐 AUTH SERVICE              │
+        │ ⚡ EVENT BUS (Kafka)         │   │ 🔐 AUTH SERVICE             │
         │ Real-time Event Streaming     │   │ JWT / OAuth2 Security       │
         └──────────────┬───────────────┘   └──────────────┬───────────────┘
                        ▼                                  ▼
 
         ┌──────────────────────────────────────────────────────────────┐
-        │ 🗄️ DATA LAYER                                               │
-        │ PostgreSQL | MySQL | MongoDB | Redis (Cache Layer)          │
-        └──────────────────────────────┬──────────────────────────────┘
+        │ 🗄️ DATA LAYER                                                │
+        │ PostgreSQL • MySQL • MongoDB • Redis (Caching Layer)         │
+        └──────────────────────────────┬───────────────────────────────┘
                                        ▼
 
         ┌──────────────────────────────────────────────────────────────┐
         │ ☁️ AWS CLOUD INFRASTRUCTURE                                  │
-        │ EC2 → Compute Servers                                       │
-        │ S3 → Image & File Storage                                   │
-        │ RDS → Managed Database                                      │
-        │ Lambda → Event Processing                                   │
-        │ CloudWatch → Monitoring & Logs                              │
-        │ Kubernetes (EKS) → Container Orchestration                  │
+        │ EC2 → Compute Servers                                        │
+        │ S3 → Image & File Storage                                    │
+        │ RDS → Managed Database                                       │
+        │ Lambda → Event Processing                                    │
+        │ CloudWatch → Monitoring & Logs                               │
+        │ Kubernetes (EKS) → Container Orchestration                   │
         └──────────────────────────────────────────────────────────────┘
 
 ---
