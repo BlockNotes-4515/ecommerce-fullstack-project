@@ -20,14 +20,7 @@ Built using Spring Boot + React + AWS with scalable microservices architecture.
 
 # 📌 1. Problem Statement
 
-In traditional e-commerce systems, platforms often face limitations such as:
-
-* ❌ Lack of scalability for multiple vendors
-* ❌ Weak role-based access control (Admin/Seller/User confusion)
-* ❌ Poor security in authentication systems
-* ❌ Inefficient product and order management
-* ❌ No subscription-based monetization model
-* ❌ Limited cloud scalability and deployment readiness
+In traditional e-commerce systems, platforms often suffer from several structural and architectural limitations that impact scalability, security, and overall efficiency. Most existing solutions are not designed to handle a growing ecosystem of multiple vendors, which leads to bottlenecks when the user base and product catalog expand. Additionally, there is often weak or poorly implemented role-based access control, resulting in confusion between admin, seller, and customer responsibilities. Security is another major concern, as many systems rely on outdated or insufficient authentication mechanisms, making them vulnerable to unauthorized access. Product and order management processes are frequently inefficient and not optimized for real-time updates or large-scale operations. Furthermore, most traditional platforms lack a subscription-based monetization model, limiting their ability to generate recurring revenue streams. Finally, many of these systems are not built with cloud-native principles, which restricts their scalability, deployment flexibility, and ability to handle modern production-level workloads effectively.
 
 👉 There is a need for a **scalable, secure, multi-vendor marketplace system** that supports real-world enterprise requirements like Amazon or Flipkart.
 
@@ -37,13 +30,7 @@ In traditional e-commerce systems, platforms often face limitations such as:
 
 Shopora Nexus solves these problems by introducing:
 
-✔ Multi-vendor marketplace architecture
-✔ Role-based system (Customer, Seller, Admin)
-✔ Secure JWT-based authentication system
-✔ Scalable Spring Boot microservices backend
-✔ Stripe-based payment system
-✔ AWS cloud deployment ready architecture
-✔ Subscription-based SaaS expansion model
+Shopora Nexus addresses these limitations by introducing a modern, scalable, and secure e-commerce architecture designed for real-world production use. It implements a multi-vendor marketplace structure that allows seamless onboarding and management of multiple sellers on a single platform. The system follows a strict role-based access model, clearly separating functionalities for customers, sellers, and administrators to ensure controlled and secure operations. Security is strengthened through a JWT-based authentication system, providing stateless and reliable user session management. The backend is built using a scalable Spring Boot microservices-oriented architecture, enabling high performance and modular development. For payments, it integrates a Stripe-based secure payment gateway, ensuring safe and efficient transaction processing. The platform is also designed with a cloud-ready AWS deployment architecture, supporting scalability, reliability, and high availability. Additionally, Shopora Nexus is structured to support a subscription-based SaaS expansion model, enabling future monetization and enterprise-level growth.
 
 ---
 
@@ -157,89 +144,100 @@ style="filter: drop-shadow(0px 0px 10px #ffffff);" />
 
 ## 👤 Authentication System
 
-* 🔑 Register new user
-* 🔐 Login / Logout
-* 🚪 Sign-in / Sign-out
-* 🛡️ JWT-based secure authentication
-* 👮 Role-based access (User / Seller / Admin)
+* 🔑 **Register new user** → Creates a new user account in the system
+* 🔐 **Login / Logout** → Authenticates user and manages active session
+* 🚪 **Sign-in / Sign-out** → Controls secure entry and exit from the platform
+* 🛡️ **JWT-based secure authentication** → Issues and validates secure token-based access
+* 👮 **Role-based access (User / Seller / Admin)** → Restricts features based on assigned user roles
 
 ---
 
 ## 🛍️ Product Module
 
-* ➕ Add product (Seller)
-* ✏️ Update product
-* ❌ Delete product
-* 🔍 Search & filter products
-* 📦 Category management
+* 🔑 **Register new user** → Creates a new user account in the system
+* 🔐 **Login / Logout** → Authenticates user and manages active session
+* 🚪 **Sign-in / Sign-out** → Controls secure entry and exit from the platform
+* 🛡️ **JWT-based secure authentication** → Issues and validates secure token-based access
+* 👮 **Role-based access (User / Seller / Admin)** → Restricts features based on assigned user roles
 
 ---
 
 ## 🛒 Cart System
 
-* 🧺 Add to cart
-* ➖ Remove item
-* 🔄 Update quantity
-* 💰 Price calculation
-* ⚡ Real-time cart updates
+* ➕ **Add product (Seller)** → Allows sellers to list new products on the platform
+* ✏️ **Update product** → Enables editing of existing product details and pricing
+* ❌ **Delete product** → Removes products from the marketplace inventory
+* 🔍 **Search & filter products** → Helps users find products using keywords and filters
+* 📦 **Category management** → Organizes products into structured categories for easy browsing
+
 
 ---
 
 ## 📦 Order System
 
-* 🧾 Place order
-* 📍 Track order status
-* 📜 Order history
-* 🔁 Order lifecycle management
+* 🧾 **Place order** → Allows customers to create and confirm purchases
+* 📍 **Track order status** → Provides real-time updates on order progress
+* 📜 **Order history** → Displays all past orders for user reference
+* 🔁 **Order lifecycle management** → Manages full order flow from placement to delivery and completion
 
 ---
 
 ## 💳 Payment System
 
-* 💳 Stripe payment integration
-* 🔒 Secure transaction processing
-* 💰 Refund handling
-* 📊 Payment status tracking
+* 💳 **Stripe payment integration** → Enables secure online payments using Stripe API
+* 🔒 **Secure transaction processing** → Ensures encrypted and safe financial transactions
+* 💰 **Refund handling** → Manages customer refunds and payment reversals
+* 📊 **Payment status tracking** → Tracks real-time payment success, failure, and pending states
 
 ---
 
 ## 👨‍💼 User Roles
 
-### 👤 Customer
+Here are **crisp one-line role descriptions for each module and feature**:
 
-* Browse products
-* Add to cart
-* Place orders
-* View profile
+---
 
-### 🛒 Seller
+## 👤 Customer
 
-* Manage products
-* Track sales
-* Inventory control
+* Browse products → Allows users to explore available products
+* Add to cart → Enables adding items to shopping cart for purchase
+* Place orders → Confirms purchase and creates an order
+* View profile → Displays personal account details and activity
 
-### 🧑‍💼 Admin
+---
 
-* User management
-* Product moderation
-* System analytics
-* Platform control
+## 🛒 Seller
+
+* Manage products → Handles creation, update, and removal of products
+* Track sales → Monitors total sales and performance metrics
+* Inventory control → Maintains stock levels and availability
+
+---
+
+## 🧑‍💼 Admin
+
+* User management → Controls user accounts and access permissions
+* Product moderation → Reviews and approves product listings
+* System analytics → Analyzes platform performance and usage data
+* Platform control → Oversees overall system operations and governance
 
 ---
 
 ## 👤 Profile System
 
-* 🧑 Avatar profile upload
-* ✏️ Edit profile details
-* 📊 Order history view
-* 🔐 Secure account settings
+* 🧑 Avatar profile upload → Allows users to set and update profile image
+* ✏️ Edit profile details → Enables updating personal information
+* 📊 Order history view → Shows all past purchases and transactions
+* 🔐 Secure account settings → Manages password and security preferences
 
 ---
 
 ## 📄 Static Pages
 
-* ℹ️ About page → platform information
-* 📞 Contact page → support system
+* ℹ️ About page → Provides information about the platform and mission
+* 📞 Contact page → Enables users to reach support and submit queries
+
+---
 
 ---
 
