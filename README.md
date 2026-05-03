@@ -231,6 +231,16 @@ Here are **crisp one-line role descriptions for each module and feature**:
 
 ---
 
+## 🛒 Cart Section
+
+* Cart management → Review selected products, quantities, and pricing
+* Cart invoice → Displays subtotal, taxes, discounts, and final payable amount
+* Payment method selection → Choose secure payment options like Stripe or PayPal
+* Final payment → Complete transaction on Stripe/PayPal and receive order/payment confirmation
+
+---
+
+
 ## 👤 Profile System
 
 * 🧑 Avatar profile upload → Allows users to set and update profile image
