@@ -145,19 +145,14 @@ style="filter: drop-shadow(0px 0px 10px #ffffff);" />
 <img src="https://skillicons.dev/icons?i=jwt,oauth" 
 style="filter: drop-shadow(0px 0px 10px #ff0000);" />
 
-<br>
 
 🔐 JWT → Tokens | 🔑 OAuth2 → Auth Flow | 🛡️ Spring Security → Protection  
-
-<br><br>
 
 <!-- INTEGRATIONS -->
 <h2>💳 Integrations</h2>
 
 <img src="https://skillicons.dev/icons?i=stripe,mailchimp,twilio" 
 style="filter: drop-shadow(0px 0px 10px #00ffcc);" />
-
-<br>
 
 💳 Stripe → Payments | 📧 Mailchimp → Emails | 📲 Twilio → SMS/OTP Services  
 
