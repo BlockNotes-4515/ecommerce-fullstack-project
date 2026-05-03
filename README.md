@@ -395,7 +395,13 @@ Got it — you want **FAANG-style clean architecture + sequence diagrams in ASCI
             │   Secure API Access Granted │
             └────────────────────────────┘
 ```
+<p align="left">
+  In this project, authentication is handled using JWT (JSON Web Token) to ensure secure and stateless user sessions. When a user logs in through the frontend application (built using React or mobile UI), their credentials are sent to the backend Auth Controller developed in Spring Boot. The controller forwards the request to the User Service, where the system validates the credentials against the database.
 
+If the user details are correct, a JWT token is generated using a secure secret key. This token contains important user information such as user ID, role (USER / ADMIN / SELLER), and expiration time. The generated token is returned to the frontend and stored securely in local storage or session storage.
+
+For every subsequent API request, the frontend includes this token in the request header as a Bearer Token. On the backend, a JWT filter (middleware) intercepts incoming requests and validates the token’s signature and expiry. If the token is valid, the request is allowed to access protected resources; otherwise, access is denied. This ensures secure, scalable, and stateless authentication across the system.
+</p>
 ---
 
 # 💳 2. Stripe Payment Sequence Diagram
@@ -454,7 +460,7 @@ Got it — you want **FAANG-style clean architecture + sequence diagrams in ASCI
             │  Order Confirmation Sent   │
             └────────────────────────────┘
 ```
-<p align="center">
+<p align="left">
   The payment system is implemented using Stripe API for secure and reliable transactions. When a user clicks the checkout button, the frontend sends a request to the backend Order Service API to create a payment intent.
 
 The backend communicates with Stripe using its SDK and creates a payment intent with details such as amount, currency, and order ID. Stripe processes this request and performs necessary validations including card verification, balance checks, and fraud detection mechanisms.
