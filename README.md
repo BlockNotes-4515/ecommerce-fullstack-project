@@ -205,11 +205,14 @@ Here are **crisp one-line role descriptions for each module and feature**:
 * View profile → Displays personal account details and activity
   
 <div align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1j1iDx6Ct__BQF74X-5yF_2OBmmXipY_S" width="400" style="margin: 10px;">
-  <img src="https://drive.google.com/uc?export=view&id=1vcF54q-XAeGAtlEnfcTmy5uqP_xjG0lq" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/User1.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/User2.png" width="400" style="margin: 10px;">
 
-  <img src="https://drive.google.com/uc?export=view&id=1AcL3aCu6OwGBHrBkQWuD44HlQvs2ALhP" width="400" style="margin: 10px;">
-  <img src="https://drive.google.com/uc?export=view&id=1ajR_8iOWnuxplOFnpzYv4KxzFagLrdUm" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/User3.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/User4.png" width="400" style="margin: 10px;">
+
+   <img src="DOCS LISCENCED/User5.png" width="400" style="margin: 10px;">
+  <img src="DOCS LISCENCED/User6.png" width="400" style="margin: 10px;">
 </div>
 
 ---
