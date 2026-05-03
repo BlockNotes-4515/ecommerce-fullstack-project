@@ -454,5 +454,14 @@ Got it — you want **FAANG-style clean architecture + sequence diagrams in ASCI
             │  Order Confirmation Sent   │
             └────────────────────────────┘
 ```
+<p align="center">
+  The payment system is implemented using Stripe API for secure and reliable transactions. When a user clicks the checkout button, the frontend sends a request to the backend Order Service API to create a payment intent.
+
+The backend communicates with Stripe using its SDK and creates a payment intent with details such as amount, currency, and order ID. Stripe processes this request and performs necessary validations including card verification, balance checks, and fraud detection mechanisms.
+
+Once the payment intent is created successfully, Stripe returns a client_secret, which is passed back to the frontend. The frontend uses Stripe.js to securely confirm the payment without exposing sensitive card details, ensuring PCI compliance.
+
+After payment processing, Stripe sends a webhook event to the backend indicating success or failure of the transaction. Based on this event, the Order Service updates the order status in the database (PENDING → PAID → FAILED). Finally, the system triggers an email/notification service to send order confirmation to the user, completing the full payment lifecycle securely and efficiently.
+</p>
 
 
